@@ -58,7 +58,7 @@ function Feedback() {
         ]
     };
     return (
-        <section className=' max-w-[1200px] mx-auto feedback-section px-5'>
+        <section className=' max-w-[1200px] mx-auto feedback-section px-5' id="feedbacks">
 
             <Slider {...settings}>
                 <div className="bg-[#11161C] px-5 rounded-lg text-white text-center flex relative overflow-visible gap-10 py-16">

@@ -19,11 +19,15 @@
 }
 
 .texto-banner {
-  font-family: 'SFRepublic';
+  font-family: 'Roboto';
 }
 
 .feedback-section .slick-track {
   display: flex;
   gap: 5em;
   padding: 10em 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -61,6 +61,7 @@ function QuemSomos() {
 
     return (
         <section className="bg-[#20262E] relative xl:mt-32 slide-quemsomos" id="quemSomos">
+            <h2 className="text-white text-[40px] text-center font-bold mb-20">Nosso time</h2>
             <Slider {...settings}>
                 <div className="">
                     <div className="xl:w-80 2xl:w-96 xl:h-80 h-44 w-44 2xl:h-96 mx-auto overflow-hidden rounded-full bg-white imagem">
