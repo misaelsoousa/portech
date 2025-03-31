@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'SFRepublic';
+  src: url('./assets/fonts/SF\ New\ Republic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-sfrepublic: "SFRepublic", sans-serif;
+  --breakpoint-3xl: 120rem;
+}
+
+
+* {
+  @apply font-montserrat;
+}
+
+.texto-banner {
+  font-family: 'SFRepublic';
+}
+
+.feedback-section .slick-track {
+  display: flex;
+  gap: 5em;
+  padding: 10em 0;
+}

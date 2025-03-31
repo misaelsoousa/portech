@@ -1,0 +1,47 @@
+.slick-next::before,
+.slick-prev::before {
+    content: '';
+}
+
+.slick-prev img {
+    scale: -1;
+}
+
+.slide-quemsomos {
+
+    .slick-prev,
+    .slick-next {
+        width: inherit;
+    }
+
+    .slick-slide {
+        margin-top: 5em;
+        transition: .5s;
+        filter: grayscale(100%)
+    }
+
+    .slick-current+.slick-slide {
+        margin-top: 0;
+        filter: grayscale(0%);
+    }
+}
+
+@media (max-width: 851px) {
+    .slick-current {
+        filter: grayscale(0%)
+    }
+
+    .imagem {
+        width: 300px !important;
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 400px) {
+
+
+    .imagem {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
