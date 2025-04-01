@@ -120,15 +120,6 @@ function QuemSomos() {
                         <img src={perfil} className="w-full group-hover:scale-125 transition duration-300 h-full object-cover" alt="" />
                     </div>
                     <div className="mx-auto text-white text-center">
-                        <span className="text-[30px] font-bold">Yuri Nemeth</span>
-                        <p className="text-gray-500">Analista de Suporte Windows </p>
-                    </div>
-                </div>
-                <div className="slide-quemsomos group">
-                    <div className="xl:w-80 2xl:w-96 xl:h-80 h-44 w-44 2xl:h-96 mx-auto overflow-hidden rounded-full bg-white imagem">
-                        <img src={perfil} className="w-full group-hover:scale-125 transition duration-300 h-full object-cover" alt="" />
-                    </div>
-                    <div className="mx-auto text-white text-center">
                         <span className="text-[30px] font-bold">Guilherme Nelson</span>
                         <p className="text-gray-500">Engenheiro de Virtualização</p>
                     </div>
