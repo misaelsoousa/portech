@@ -1,5 +1,6 @@
 import Footer from "../Footer"
 import BannerHome from "./BannerHome"
+import Contato from "./Contato"
 import Feedback from "./Feedback"
 import Location from "./Location"
 import Missao from "./Missao"
@@ -17,6 +18,7 @@ function HomeContent() {
             <Missao />
             <Feedback />
             <Location />
+            <Contato />
             <Footer />
         </section>
     )

@@ -23,11 +23,17 @@
 }
 
 .feedback-section .slick-track {
-  display: flex;
-  gap: 5em;
   padding: 10em 0;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (min-width: 851px) {
+  .feedback-section .slick-track {
+    display: flex;
+    gap: 5em;
+    padding: 10em 0;
+  }
 }
